@@ -1,0 +1,28 @@
+.projects-section {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.project-card {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s ease;
+  border: 2px solid #b26bff;
+  box-shadow: 0 0 15px rgba(178, 107, 255, 0.4);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(178, 107, 255, 0.7);
+}
+
+.project-title {
+  color: #b26bff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #ccc;
+}

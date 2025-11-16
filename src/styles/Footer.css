@@ -1,0 +1,21 @@
+.footer {
+  background: #0a0a0f;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #b26bff;
+  box-shadow: 0 -5px 15px rgba(178, 107, 255, 0.4);
+}
+
+.footer-text {
+  color: #bbb;
+}
+
+.footer-links a {
+  color: #b26bff;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  text-shadow: 0 0 10px rgba(178, 107, 255, 0.8);
+}

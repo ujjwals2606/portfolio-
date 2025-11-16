@@ -1,0 +1,30 @@
+.intro-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-out;
+}
+
+.intro-heading {
+  font-size: 3rem;
+  color: #b26bff;
+  text-shadow: 0 0 20px rgba(178, 107, 255, 0.7);
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.profile-img {
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid #b26bff;
+  box-shadow: 0 0 20px rgba(178, 107, 255, 0.6);
+  margin-bottom: 20px;
+}

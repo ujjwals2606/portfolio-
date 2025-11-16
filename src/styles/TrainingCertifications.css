@@ -1,0 +1,21 @@
+.training-section {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.training-card {
+  background: #111;
+  border-radius: 12px;
+  transition: 0.3s;
+  color: #ddd;
+  box-shadow: 0 0 15px rgba(178, 107, 255, 0.4);
+}
+
+.training-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(178, 107, 255, 0.7);
+}
+
+.training-card h4 {
+  color: #b26bff;
+  text-shadow: 0 0 10px rgba(178, 107, 255, 0.7);
+}

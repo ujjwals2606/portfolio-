@@ -1,0 +1,100 @@
+/* ------------------------------
+   GLOBAL RESET
+------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------
+   SCROLLBAR STYLING
+------------------------------ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b26bff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(178, 107, 255, 0.7);
+}
+
+/* ------------------------------
+   BODY STYLING
+------------------------------ */
+body {
+  background-color: #0a0a0f;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------
+   DEFAULT LINK STYLING
+------------------------------ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #b26bff;
+  text-shadow: 0 0 8px rgba(178, 107, 255, 0.7);
+}
+
+/* ------------------------------
+   CONTAINER GLOW EFFECT
+------------------------------ */
+.neon-box {
+  border: 1px solid #b26bff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 
+    0 0 10px rgba(178, 107, 255, 0.4),
+    0 0 20px rgba(178, 107, 255, 0.3);
+}
+
+/* ------------------------------
+   TEXT NEON EFFECT
+------------------------------ */
+.neon-purple {
+  color: #b26bff;
+  text-shadow: 
+    0 0 10px rgba(178, 107, 255, 0.8),
+    0 0 20px rgba(178, 107, 255, 0.5);
+}
+
+/* ------------------------------
+   DEFAULT PAGE SPACING
+------------------------------ */
+section {
+  padding: 60px 0;
+}
+
+/* ------------------------------
+   ANIMATIONS
+------------------------------ */
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

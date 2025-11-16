@@ -1,0 +1,15 @@
+.softskills-section {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.skill-card {
+  background: #111;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  color: #eee;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(178, 107, 255, 0.7);
+}

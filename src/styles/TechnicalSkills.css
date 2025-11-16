@@ -1,0 +1,26 @@
+.technical-section {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.skill-box {
+  background: #111;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 0 12px rgba(178, 107, 255, 0.3);
+}
+
+.skill-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 30px rgba(178, 107, 255, 0.6);
+}
+
+.skill-category {
+  color: #b26bff;
+  text-shadow: 0 0 10px rgba(178, 107, 255, 0.7);
+}
+
+.skill-item {
+  color: #ddd;
+  font-size: 1rem;
+  padding: 4px 0;
+}
