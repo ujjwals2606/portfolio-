@@ -1,7 +1,7 @@
 // src/pages/SoftSkills.jsx
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/softskills.css";
+import "../styles/SoftSkills.css";
 
 const SoftSkills = () => {
   const skills = [
